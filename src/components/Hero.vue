@@ -2,7 +2,7 @@
 	<div class="hero sm:pt-14 md:pb-[240px] pt-[60px] pb-[72px]">
 		<div class="container">
 			<div
-				class="hero__inner  relative lg:bg-[url('/images/hero/hero_bg.svg')] bg-[url('src/assets/images/hero/hero_mobile.svg')] sm:bg-[90%] bg-no-repeat bg-contain"
+				class="hero__inner  relative lg:bg-[url('/images/hero/hero_bg.svg')] bg-[url('/images/hero/hero_mobile.svg')] sm:bg-[90%] bg-no-repeat bg-contain"
 			>
 				<div class="md:pt-[70px]">
 					<h1 class="sm:text-left text-center font-bold sm:text-[48px] text-[24px] text-black max-w-[730px] mb-4">

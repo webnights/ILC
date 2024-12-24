@@ -1,9 +1,11 @@
 <template>
 	<div
 		class="p-section max-w-[1060px] mx-auto"
-		style='background: url("./src/assets/images/easyStart/background.svg") 0 30% / 100% no-repeat;'
+		style="
+			background: url('./images/easyStart/background.svg') 0 30% / 100% no-repeat;
+		"
 	>
-	<h2 class='title !text-center sm:mb-12 mb-6'>Начать легко</h2>
+		<h2 class="title !text-center sm:mb-12 mb-6">Начать легко</h2>
 		<div
 			v-if="cards !== null"
 			class="max-w-[950px] start__cards gap-4 grid md:grid-cols-3 grid-rows-4 relative"
@@ -18,7 +20,7 @@
 </template>
 
 <script>
-import { defineComponent, onMounted, computed, ref } from 'vue'
+import { computed, defineComponent, onMounted, ref } from 'vue'
 import EasyStartCard from './EasyStartCard.vue'
 
 export default defineComponent({
@@ -46,7 +48,7 @@ const sortedCards = computed(() => {
 	if (screenWidth.value < 768) {
 		return cards.value.sort((a, b) => a.order - b.order)
 	}
-	return cards.value;
+	return cards.value
 })
 </script>
 

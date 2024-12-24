@@ -42,7 +42,7 @@
 				>
 					<img
 						class="absolute left-[-10px] top-[9px]"
-						src="../assets/images/advantages/triangle.svg"
+						src="/images/advantages/triangle.svg"
 						alt=""
 					/>
 					<p class="text lg:max-w-[300px] !text-left">{{ benefit }}</p>

@@ -50,7 +50,7 @@
 			}`"
 
 		>
-			<img src="../assets/images/logo.svg" alt="Логотип" class="max-w-40" />
+			<img src="/images/logo.svg" alt="Логотип" class="max-w-40" />
 			<nav class="flex flex-col gap-2">
 				<a
 					href="#"
