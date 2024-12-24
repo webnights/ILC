@@ -19,15 +19,13 @@
 				<div
 					id="circle__block"
 					class="w-[145px] h-[145px] lg:absolute sm:mx-0 mx-auto static mt-5 top-[-20%] right-[12%] flex justify-center items-center rounded-[50%] bg-light"
-					style="background-image: url(src/assets/images/hero/circle.svg)"
+					style="background-image: url(./src/assets/images/hero/circle.svg)"
 				>
 					<div
 						class="flex flex-col gap-1 items-center justify-center  max-w-[80px] text-balance"
 					>
 						<p class="font-bold leading-6 text-center">Доход до $260</p>
 						<p class="text-xs font-medium text-center">с каждого полиса</p>
-						<!-- <div id='gradient-ring' class="w-full h-full absolute top-0 left-0 rounded-[50%]" style='background: conic-gradient(#7b61ff 25%, transparent 25%);'>
-						</div> -->
 					</div>
 				</div>
 				<ul

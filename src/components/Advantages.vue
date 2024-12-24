@@ -7,7 +7,7 @@
 			<div class="relative">
 				<img
 					class="max-w-[220px] w-full mb-6 sm:mb-0"
-					src="/src/assets/images/advantages/phone.svg"
+					src="../assets/images/advantages/phone.svg"
 					alt="Смартфон"
 				/>
 				<div
@@ -42,7 +42,7 @@
 				>
 					<img
 						class="absolute left-[-10px] top-[9px]"
-						src="/src/assets/images/advantages/triangle.svg"
+						src="../assets/images/advantages/triangle.svg"
 						alt=""
 					/>
 					<p class="text lg:max-w-[300px] !text-left">{{ benefit }}</p>

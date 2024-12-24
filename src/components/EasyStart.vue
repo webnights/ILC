@@ -1,7 +1,7 @@
 <template>
 	<div
 		class="p-section max-w-[1060px] mx-auto"
-		style='background: url("src/assets/images/easyStart/background.svg") 0 30% / 100% no-repeat;'
+		style='background: url("./src/assets/images/easyStart/background.svg") 0 30% / 100% no-repeat;'
 	>
 	<h2 class='title !text-center sm:mb-12 mb-6'>Начать легко</h2>
 		<div

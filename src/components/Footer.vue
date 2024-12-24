@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="flex flex-wrap items-center w-full sm:justify-between justify-center py-8 gap-5">
 				<div class="flex flex-wrap items-center  sm:justify-normal justify-center gap-12">
-					<img src="/src/assets/images/logo.svg" alt="Логотип" />
+					<img src="../assets/images/logo.svg" alt="Логотип" />
 					<p class="max-w-[240px] text-[12px]">
 						Первый цифровой международный юридический центр
 					</p>

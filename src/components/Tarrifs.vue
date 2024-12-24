@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import { defineComponent, ref, onMounted } from 'vue'
+import { defineComponent, onMounted, ref } from 'vue'
 import TarifCard from './TarifCard.vue'
 export default defineComponent({
 	name: 'Tarrifs',
