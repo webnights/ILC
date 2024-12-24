@@ -7,7 +7,7 @@
 			<div class="relative">
 				<img
 					class="max-w-[220px] w-full mb-6 sm:mb-0"
-					src="../assets/images/advantages/phone.svg"
+					src="/images/advantages/phone.svg"
 					alt="Смартфон"
 				/>
 				<div

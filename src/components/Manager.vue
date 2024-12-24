@@ -5,7 +5,7 @@
 				<div class="relative">
 					<img
 						class="sm:max-w-[420px] max-w-[230px] w-full"
-						src="/src/assets/images/manager/manager.jpg"
+						src="/images/manager/manager.jpg"
 						alt="Менеджер"
 					/>
 					<blockquote

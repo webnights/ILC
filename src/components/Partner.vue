@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div
-			class="w-full sm:h-[400px] h-[300px] bg-[url(/src/assets/images/partner/planet.svg)] bg-cover"
+			class="w-full sm:h-[400px] h-[300px] bg-[url(/images/partner/planet.svg)] bg-cover"
 		>
 			<div class="max-w-[1060px] mx-auto">
 				<h2 class="title !text-white mb-4 sm:pt-[90px] pt-12">
@@ -19,7 +19,7 @@
 				<div class="w-[250px] sm:text-left text-center sm:mb-0 mb-6">
 					<img
 						class="sm:mx-0 mx-auto"
-						src="/src/assets/images/partner/1.svg"
+						src="/images/partner/1.svg"
 						alt=""
 					/>
 				</div>
@@ -46,7 +46,7 @@
 				<div class="w-[250px] sm:mb-0 mb-6">
 					<img
 						class="sm:mx-0 mx-auto"
-						src="/src/assets/images/partner/2.svg"
+						src="/images/partner/2.svg"
 						alt=""
 					/>
 				</div>
@@ -76,7 +76,7 @@
 				<div class="w-[250px] sm:mb-0 mb-6">
 					<img
 						class="sm:mx-0 mx-auto"
-						src="/src/assets/images/partner/3.svg"
+						src="/images/partner/3.svg"
 						alt=""
 					/>
 				</div>
@@ -100,7 +100,7 @@
 				<div class="w-[250px] sm:mb-0 mb-6">
 					<img
 						class="sm:mx-0 mx-auto"
-						src="/src/assets/images/partner/4.svg"
+						src="/images/partner/4.svg"
 						alt=""
 					/>
 				</div>

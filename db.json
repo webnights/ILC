@@ -1,31 +1,31 @@
 {
 	"hero": [
 		{
-			"image": "/src/assets/images/hero/1.svg",
+			"image": "./images/hero/1.svg",
 			"title": "Юридическая поддержка 24/7"
 		},
 		{
-			"image": "/src/assets/images/hero/2.svg",
+			"image": "./images/hero/2.svg",
 			"title": "Множество возможностей в одном полисе"
 		},
 		{
-			"image": "/src/assets/images/hero/3.svg",
+			"image": "./images/hero/3.svg",
 			"title": "Бонусы партнерской программы"
 		}
 	],
 	"help": [
 		{
-			"image": "/src/assets/images/help/1.svg",
+			"image": "./images/help/1.svg",
 			"title": "Бизнесу",
 			"description": "Услуги профессиональных юристов для вашей компании по фиксированному тарифу — это в несколько раз выгоднее, чем содержать свой штат."
 		},
 		{
-			"image": "/src/assets/images/help/2.svg",
+			"image": "./images/help/2.svg",
 			"title": "StartUP проектам",
 			"description": "Эксперты ILC помогут выбрать оптимальную правовую форму для ведения бизнеса, оптимизировать налоги и подготовить необходимый  пакет документов."
 		},
 		{
-			"image": "/src/assets/images/help/3.svg",
+			"image": "./images/help/3.svg",
 			"title": "Частным клиентам",
 			"description": "Оперативные решения сложных вопросов в режиме онлайн: ДТП, наследство, страховые споры, земельные и имущественные процессы, защита прав."
 		}
@@ -39,27 +39,27 @@
 		],
 		"cards": [
 			{
-				"image": "/src/assets/images/advantages/1.svg",
+				"image": "./images/advantages/1.svg",
 				"title": "Удобный формат",
 				"description": "Консультируем 24/7 в любом удобном формате: чат, аудио-звонок, c помощью искусственного интеллекта Sirius в личном кабинете."
 			},
 			{
-				"image": "/src/assets/images/advantages/2.svg",
+				"image": "./images/advantages/2.svg",
 				"title": "Доступная цена ",
 				"description": "Выбирайте комфортный для себя пакет юридической поддержки, оплачивая только то, что действительно нужно."
 			},
 			{
-				"image": "/src/assets/images/advantages/3.svg",
+				"image": "./images/advantages/3.svg",
 				"title": "Налоговый калькулятор ",
 				"description": "Точный расчет налоговой нагрузки за считанные минуты с помощью телеграм-бота ILC_tax — это быстро и удобно!"
 			},
 			{
-				"image": "/src/assets/images/advantages/4.svg",
+				"image": "./images/advantages/4.svg",
 				"title": "Конструктор документов ",
 				"description": "Доступ к более чем 9500 готовых и проработанных документов для бизнеса — бесплатно!"
 			},
 			{
-				"image": "/src/assets/images/advantages/5.svg",
+				"image": "./images/advantages/5.svg",
 				"title": "Бесплатный доступ для всех, кто зарегистрируется ",
 				"description": "Конструктор с ограниченным количеством документов на базе телеграм-бота"
 			}
@@ -160,7 +160,7 @@
 			"number": 3,
 			"title": "Стратегия",
 			"text": "Воспользуйтесь подробным и понятным алгоритмом действий для достижения классных результатов. ",
-			"image": "/src/assets/images/easyStart/1.svg",
+			"image": "./images/easyStart/1.svg",
 			"imageWidth": 230,
 			"button": ""
 		},
@@ -170,7 +170,7 @@
 			"number": "",
 			"title": "Результат",
 			"text": "Зарабатывайте до 35% с каждой покупки полиса по вашей партнерской ссылке с первых дней после регистрации.",
-			"image": "/src/assets/images/easyStart/2.svg",
+			"image": "./images/easyStart/2.svg",
 			"imageWidth": 50,
 			"button": "Начать зарабатывать"
 		},

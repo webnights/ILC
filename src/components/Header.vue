@@ -5,7 +5,7 @@
 				<div class="flex items-center gap-16">
 					<img
 						class="sm:w-full sm:max-w-[200px] tn:max-w-[150px] max-w-[90px]"
-						src="/src/assets/images/logo.svg"
+						src="/images/logo.svg"
 						alt="Логотип"
 					/>
 					<p class="max-w-[230px] text-xs md:block hidden">
@@ -15,7 +15,7 @@
 				<div class="sm:hidden gap-1 items-center flex">
 					<img
 						class="bg-primary rounded-[7px] w-[50px] h-[50px] flex items-center justify-center p-[15px]"
-						src="../assets/images/phone.svg"
+						src="/images/phone.svg"
 						alt="Смартфон"
 					/>
 					<div

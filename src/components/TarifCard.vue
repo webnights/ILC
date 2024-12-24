@@ -41,7 +41,7 @@
 					:key="index"
 				>
 					<img
-						src="/src/assets/images/advantages/triangle.svg"
+						src="/images/advantages/triangle.svg"
 						class="scale-[0.7] mt-1"
 						alt=""
 					/>
@@ -55,7 +55,7 @@
 				class="text-secondary font-medium mb-4 leading-[40px] flex items-center gap-6"
 			>
 				<span class='sm:text-[16px] text-xs'>Подробнее в личном кабинете</span>
-				<img src="/src/assets/images/tarrifs/arrow.svg" alt="" />
+				<img src="/images/tarrifs/arrow.svg" alt="" />
 			</a>
 			<button
 				:class="['button', card.name == 'Легкий старт' ? 'sm:mx-auto' : 'mx-0']"

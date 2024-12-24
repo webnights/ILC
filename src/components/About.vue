@@ -8,7 +8,7 @@
 		<div class="max-w-[400px]">
 			<img
 				class="md:block mb-8 md:text-left md:mx-0  mx-auto " 
-				src="../assets/images/logo_textless.svg"
+				src="/images/logo_textless.svg"
 				alt="Логотип"
 			/>
 			<h2 class="title mb-4">Ваша личная online команда юристов</h2>
