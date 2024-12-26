@@ -14,14 +14,15 @@
 		</div>
 		<div class="p-section sm:pt-[76px] pt-[16px]">
 			<div
+				v-motion
+				:initial="{ opacity: 0, x: -100 }"
+				:visible-once="{ opacity: 1, x: 0 }"
+				:duration="800"
+				:delay="200"
 				class="sm:p-[55px] p-[26px] rounded-[20px] bg-white flex sm:flex-row flex-col items-center mb-4 max-w-[1060px] mx-auto"
 			>
 				<div class="w-[250px] sm:text-left text-center sm:mb-0 mb-6">
-					<img
-						class="sm:mx-0 mx-auto"
-						src="/images/partner/1.svg"
-						alt=""
-					/>
+					<img class="sm:mx-0 mx-auto" src="/images/partner/1.svg" alt="" />
 				</div>
 				<div class="max-w-[515px]">
 					<h3
@@ -41,14 +42,15 @@
 			</div>
 
 			<div
+				v-motion
+				:initial="{ opacity: 0, x: -100 }"
+				:visible-once="{ opacity: 1, x: 0 }"
+				:duration="800"
+				:delay="200"
 				class="sm:p-[55px] p-[26px] rounded-[20px] bg-white flex sm:flex-row flex-col items-center mb-4 max-w-[1060px] mx-auto"
 			>
 				<div class="w-[250px] sm:mb-0 mb-6">
-					<img
-						class="sm:mx-0 mx-auto"
-						src="/images/partner/2.svg"
-						alt=""
-					/>
+					<img class="sm:mx-0 mx-auto" src="/images/partner/2.svg" alt="" />
 				</div>
 				<div class="max-w-[515px]">
 					<h3
@@ -71,14 +73,15 @@
 			</div>
 
 			<div
+				v-motion
+				:initial="{ opacity: 0, x: -100 }"
+				:visible-once="{ opacity: 1, x: 0 }"
+				:duration="800"
+				:delay="200"
 				class="sm:p-[55px] p-[26px] rounded-[20px] bg-white flex sm:flex-row flex-col items-center mb-4 max-w-[1060px] mx-auto"
 			>
 				<div class="w-[250px] sm:mb-0 mb-6">
-					<img
-						class="sm:mx-0 mx-auto"
-						src="/images/partner/3.svg"
-						alt=""
-					/>
+					<img class="sm:mx-0 mx-auto" src="/images/partner/3.svg" alt="" />
 				</div>
 				<div class="max-w-[515px]">
 					<h3
@@ -95,14 +98,15 @@
 				</div>
 			</div>
 			<div
+				v-motion
+				:initial="{ opacity: 0, x: -100 }"
+				:visible-once="{ opacity: 1, x: 0 }"
+				:duration="800"
+				:delay="200"
 				class="sm:p-[55px] p-[26px] rounded-[20px] bg-white flex sm:flex-row flex-col items-center mb-4 max-w-[1060px] mx-auto"
 			>
 				<div class="w-[250px] sm:mb-0 mb-6">
-					<img
-						class="sm:mx-0 mx-auto"
-						src="/images/partner/4.svg"
-						alt=""
-					/>
+					<img class="sm:mx-0 mx-auto" src="/images/partner/4.svg" alt="" />
 				</div>
 				<div class="max-w-[515px]">
 					<h3

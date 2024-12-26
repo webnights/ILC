@@ -1,13 +1,26 @@
 <template>
 	<div class="p-section">
-		<h2 class="font-bold text-center mb-8">Даём поддержку</h2>
+		<h2
+			v-motion
+			:initial="{ opacity: 0, y: -50 }"
+			:visible-once="{ opacity: 1, y: 0 }"
+			:duration="1000"
+			class="font-bold text-center mb-8"
+		>
+			Даём поддержку
+		</h2>
 		<div
 			class="max-w-[1100px] flex lg:flex-row flex-col gap-4 justify-between mx-auto"
 		>
-			<HelpCard 
-			v-for="(card, index) in helpCards"
-			:key="index" 
-			:card = 'card'
+			<HelpCard
+				v-for="(card, index) in helpCards"
+				v-motion
+				:initial="{ opacity: 0, y: 100 }"
+				:visible-once="{ opacity: 1, y: 0 }"
+				:duration="1000"
+				:delay="300 * index"
+				:key="index"
+				:card="card"
 			/>
 		</div>
 	</div>
@@ -26,9 +39,9 @@ export default defineComponent({
 const helpCards = ref(null)
 
 onMounted(async () => {
-	const response = await fetch('http://localhost:3000/help')
-	helpCards.value = await response.json()
-	console.log(helpCards.value)
+	const response = await fetch('https://api.jsonbin.io/v3/b/676d7982acd3cb34a8bfb37a')
+	const data = await response.json();
+	helpCards.value = data.record.help;
 })
 </script>
 <style scoped></style>

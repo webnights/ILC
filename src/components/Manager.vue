@@ -1,5 +1,11 @@
 <template>
-	<div class="p-section sm:pt-[144px] pt-[72px]">
+	<div
+		v-motion
+		:initial="{ opacity: 0 }"
+		:visible-once="{ opacity: 1 }"
+		:duration="1000"
+		class="p-section sm:pt-[144px] pt-[72px]"
+	>
 		<div class="max-w-[1060px] mx-auto">
 			<div class="max-w-[980px] flex flex-wrap-reverse gap-2 justify-between">
 				<div class="relative">
@@ -18,16 +24,19 @@
 				</div>
 				<div class="mt-12 max-w-[450px]">
 					<div class="mb-8">
-						<span class="sm:text-[14px] text-[12px] sm:text-left text-center mb-1"
+						<span
+							class="sm:text-[14px] text-[12px] sm:text-left text-center mb-1"
 							>Руководитель ООО ILC
 						</span>
 						<h2 class="title mb-4">Наталья Гуторова</h2>
-						<article class="font-medium sm:text-[14px] text-[12px] sm:text-left text-center">
+						<article
+							class="font-medium sm:text-[14px] text-[12px] sm:text-left text-center"
+						>
 							10 лет в управлении и юриспуденции
 						</article>
 					</div>
 					<div>
-						<p class='!text-left'>
+						<p class="!text-left">
 							Мы стараемся окружить заботой и создать максимально комфортные
 							условия для развития каждого партнера:
 						</p>
@@ -36,13 +45,14 @@
 							<li>пошаговое обучение,</li>
 							<li>готовые инструменты для продвижения</li>
 						</ul>
-						<p class='mb-4 !text-left'>и мгновенные выплаты
-							бонусов.</p>
+						<p class="mb-4 !text-left">и мгновенные выплаты бонусов.</p>
 						<p class="sm:mb-8 mb-4 !text-left">
 							Больше деталей партнерской программы смотрите в личном кабинете
 							после регистрации.
 						</p>
-						<button class="button sm:mb-0 mb-8 sm:mx-0 mx-auto">Зарегистрироваться</button>
+						<button class="button sm:mb-0 mb-8 sm:mx-0 mx-auto">
+							Зарегистрироваться
+						</button>
 					</div>
 					<div></div>
 				</div>

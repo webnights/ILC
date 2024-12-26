@@ -38,7 +38,7 @@
 		</div>
 		<div class='bg-[#E8EDF3] sm:py-4 py-8'>
 			<div class="container">
-				<div class='flex items-center justify-between flex-wrap-reverse gap-8'>
+				<div class='flex items-center sm:justify-between justify-center flex-wrap-reverse gap-8'>
 					<div>
 						<p class="text-[12px] text-[#7A7A7A] max-w-[280px]">
 							©2021 «International Legal Center» | Разработано: effex-it.com

@@ -1,7 +1,7 @@
 <template>
 	<div class="header sm:pt-16 pt-8 ">
 		<div class="container">
-			<div class="header__inner flex justify-between gap-16">
+			<div ref='motion_inner' class="header__inner flex justify-between gap-16">
 				<div class="flex items-center gap-16">
 					<img
 						class="sm:w-full sm:max-w-[200px] tn:max-w-[150px] max-w-[90px]"
@@ -32,7 +32,7 @@
 					<button class="button">Войти</button>
 				</div>
 			</div>
-			<nav class="sm:flex hidden gap-1 max-w-[640px] justify-between mt-12">
+			<nav ref='motion_nav' class="sm:flex hidden gap-1 max-w-[640px] justify-between mt-12">
 				<a
 					href="#"
 					class="hover:text-primary duration-300 font-medium"
@@ -80,6 +80,7 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
+import { useMotion } from '@vueuse/motion';
 export default defineComponent({
 	name: 'Header',
 })
@@ -98,6 +99,38 @@ const isMenuToggle = ref(false)
 const toggleMenu = () => {
 	isMenuToggle.value = !isMenuToggle.value
 }
+
+const motion_inner = ref();
+const motion_nav = ref();
+
+useMotion(motion_inner,{
+    initial: {
+        opacity: 0,
+        y: -50
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+				transition:{
+					duration: 500,
+					delay: 700
+				}
+    },
+})
+useMotion(motion_nav,{
+    initial: {
+        opacity: 0,
+        y: -50
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+				transition:{
+					duration: 550,
+					delay: 1000
+				}
+    },
+})
 </script>
 
 <style scoped></style>

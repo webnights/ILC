@@ -1,11 +1,34 @@
 <template>
 	<div class="p-section relative">
-		<h2 class="title sm:mb-4 mb-2 !text-center mx-auto">Тарифы</h2>
-		<p class="text sm:mb-8 mb-4 !text-center">для всех и для каждого</p>
+		<h2
+			v-motion
+			:initial="{ opacity: 0, y: -50 }"
+			:visible-once="{ opacity: 1, y: 0 }"
+			:duration="1000"
+			:delay="200"
+			class="title sm:mb-4 mb-2 !text-center mx-auto"
+		>
+			Тарифы
+		</h2>
+		<p
+			v-motion
+			:initial="{ opacity: 0 }"
+			:visible-once="{ opacity: 1 }"
+			:duration="1000"
+			:delay="400"
+			class="text sm:mb-8 mb-4 !text-center"
+		>
+			для всех и для каждого
+		</p>
 		<div
 			class="flex justify-center sm:gap-[65px] gap-4 items-center absolute left-[50%] translate-x-[-50%] sm:text-[20px] text-[12px]"
 		>
 			<button
+				v-motion
+				:initial="{ opacity: 0 }"
+				:visible-once="{ opacity: 1 }"
+				:duration="500"
+				:delay="600"
 				type="button"
 				:class="[
 					'tab font-medium text-primary  border-b-[2px] border-dotted duration-500',
@@ -16,6 +39,11 @@
 				1 месяц
 			</button>
 			<button
+				v-motion
+				:initial="{ opacity: 0 }"
+				:visible-once="{ opacity: 1 }"
+				:duration="500"
+				:delay="600"
 				type="button"
 				:class="[
 					'tab  font-medium text-primary  border-b-[2px] border-dotted  duration-500',
@@ -34,6 +62,11 @@
 		>
 			<TarifCard
 				v-for="(card, index) in tarifs"
+				v-motion
+				:initial="{ opacity: 0, y: -50 }"
+				:visible-once="{ opacity: 1, y: 0 }"
+				:duration="700"
+				:delay="100 * index"
 				:key="index"
 				:card="card"
 				:tarif="tarif"
@@ -60,8 +93,11 @@ const setActive = text => {
 }
 
 onMounted(async () => {
-	const response = await fetch('http://localhost:3000/tariffs')
-	tarifs.value = await response.json()
+	const response = await fetch(
+		'https://api.jsonbin.io/v3/b/676d7982acd3cb34a8bfb37a'
+	)
+	const data = await response.json()
+	tarifs.value = data.record.tariffs
 })
 </script>
 
